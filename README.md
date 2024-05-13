@@ -13,7 +13,7 @@ To facilitate comparisons, an ANN runner built with PyTorch is also available. T
 A more complete version with more algorithms and more examples is also available at: https://github.com/OlivierBelan/Evo-Sim (mainly NeuroEvolution algorithms)
 
 
-During the installation of pybullet, if you encounter the following error:
+During the installation/run of pybullet env (QD_env), if you encounter the following error:
 ```AttributeError: 'dict' object has no attribute 'env_specs'```
 You can fix it by changing the file ```pybullet_envs/__init__.py``` the section:
 ```python
